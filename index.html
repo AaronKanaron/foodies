@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html lang="en">
+	<head>
+		<!-- Meta -->
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<!-- Title -->
+		<title>Document</title>
+		<!-- Style -->
+		<link rel="stylesheet" href="style/style.css">
+		<!-- Script -->
+		<script src="redirect.js"></script>
+		
+	</head>
+
+	<body>
+		<header id="header">
+            <a href="index.html" class="logo">Foodies</a>
+            <nav>
+                <ul class="nav-links">
+                    <!-- <li><a class="active" href="#">Startsida</a></li> -->
+                    <li><a href="#">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+            <p class="menu cta">Meny</p>
+        </header>
+
+		<div class="header">
+			<!-- <img class="background"src="https://www.pngkey.com/png/full/80-802170_jungle-transparent-leaves-banana-leaf-illustration-png.png" alt=""> -->
+			<div class="title-wrapper">
+				
+				<h1>
+					Are You Hungry?<br>Starve To Death
+				</h1>
+				<div class="bottom-title-wrapper">
+					<p>Maecenas interdum lorem elefend orci aliquam mollis. Aliquam non rhoncus magna. Suspendissa.</p>
+				</div>
+				<div class="header-search">
+					<input id="search-input" type="text" placeholder="What are you looking?">
+					<button type="submit" onclick="search(document.getElementById('search-input').value)">Search</button>
+					<ion-icon onclick="search(document.getElementById('search-input').value)" name="search-outline"></ion-icon>
+				</div>
+			</div>
+			<div class="header-image">
+				<img src="https://www.hungryjacks.com.au/Upload/HJ/Media/Menu/Product/MobileThumbnail/Bacon_Deluxe_Baconator.png" alt="Mat">
+			</div>
+		</div>
+
+		<section class="popular">
+			<div class="container">
+				<h1>Popular Restaurants<span>That does not use our service</span></h1>
+				<div class="wrapper">
+					<div class="card">
+						<img src="https://pngimg.com/uploads/burger_king/small/burger_king_PNG9.png" alt="logo">
+						<p>Burger King</p>
+					</div>
+					<div class="card">
+						<img src="https://www.shareicon.net/data/256x256/2015/09/01/94011_starbucks_512x512.png" alt="logo">
+						<p>Starbucks</p>
+					</div>
+					<div class="card">
+						<img src="https://fastly.4sqi.net/img/general/256x256/212169387_3tim4wr27TsLghEp_8fn7Wa0fSpSfcktTZynG1PvU9k.png" alt="logo">
+						<p>KFC</p>
+					</div>
+					<div class="card">
+						<img src="https://res.cloudinary.com/crunchbase-production/image/upload/c_lpad,h_256,w_256,f_auto,q_auto:eco,dpr_1/v1476331932/zo6tgjq9kbj8vpdslbta.png" alt="logo">
+						<p>Joe and the Juice</p>
+					</div>
+					
+					
+				</div>
+			</div>
+		</section>
+
+		<section class="welcome">
+			<div class="container">
+				<img src="https://specialdocs.com/wp-content/uploads/2017/11/AICR_NewAmericanPlate-824x824-1.png" alt="item">
+				<div class="wrapper">
+					<h1>Welcome to the top <span>Foodies</span> where the food change with the seasons</h1>
+					<p>Eu elit Lorem nisi ullamco sunt reprehenderit esse eiusmod sint nisi quis incididunt aliqua. Laborum qui nostrud labore ex pariatur non ea ipsum adipisicing ex labore. Dolore exercitation pariatur adipisicing reprehenderit proident sint. </p>
+					<button>Explore our story</button>
+				</div>
+			</div>
+		</section>
+
+		<footer></footer>
+
+		<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+		<script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+	</body>
+</html>
